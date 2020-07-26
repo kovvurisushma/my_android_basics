@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_one"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+         />
+
+    <EditText
+        android:id="@+id/et_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/et_data"
+    />
+    <Button
+        android:id="@+id/bt_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_data"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_second"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_url"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/bt_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEB"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/tv_third"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/et_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_number"
+        android:layout_margin="10dp"
+
+        />
+    <Button
+        android:id="@+id/bt_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_num"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/tv_fourth"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/et_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_map"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/bt_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_map"
+        android:layout_margin="10dp"
+        />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

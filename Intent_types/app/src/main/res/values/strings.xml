@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Intent_types</string>
+    <string name="tv_one">EXPLICit intent example</string>
+    <string name="et_data">Enter Text here:</string>
+    <string name="bt_data">Open second screen</string>
+    <string name="tv_second">Implicit intent</string>
+    <string name="et_url">Enter URL</string>
+    <string name="tv_third">Implicit Intent ex 2</string>
+    <string name="et_number">Enter number</string>
+    <string name="bt_num">Contact</string>
+    <string name="tv_fourth">Implicit example 3</string>
+    <string name="et_map">Enter the place</string>
+    <string name="bt_map">open map</string>
+</resources>

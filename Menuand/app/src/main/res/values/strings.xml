@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Date and Time Pickers</string>
+    <string name="bt_date_picker">Date Picker</string>
+    <string name="bt_time_picker">Time Picker</string>
+</resources>

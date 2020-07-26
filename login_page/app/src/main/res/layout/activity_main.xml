@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/image_view"
+        android:src="@drawable/mee"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/et_text"
+        android:inputType="text"
+        android:maxLength="10"
+        android:hint="Enter UserName : "
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/et_email"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email Address : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/et_phn"
+        android:inputType="phone"
+        android:hint="Enter phoneNumber : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:inputType="textPassword"
+        android:hint="Enter Password : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:text="male"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="100dp"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:text="female"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <CheckBox
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_java"
+        android:text="Java"/>
+    <CheckBox
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_android"
+        android:text="android"/>
+    <CheckBox
+        android:id="@+id/kotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="kotlin"/>
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/branch"
+        android:id="@+id/spinner"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:id="@+id/text_view"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="submit"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>

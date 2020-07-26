@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">intent</string>
+    <string name="et_username">Enter some text:</string>
+    <string name="next">Next</string>
+</resources>
